@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
   async init(): Promise<void> {
     try {
       registerOnPresenceChanged(async (presence, reason, app) => {
-        if (app != 'DAVINCI APP FOR CALL SIMULATOR')
+        if (app != 'DAVINCI APP FOR SUMMER INTERNSHIP 2025')
         setPresence(presence, reason, '', '');
       });
 
